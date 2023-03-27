@@ -1,0 +1,24 @@
+2023-03-27 05:06:30.404  INFO 1292 --- [main] com.example.demo.DemoApplication         : Starting DemoApplication using Java 11.0.18 on cs-939944686541-default with PID 1292 (/home/kashdc06/demo/target/classes started by kashdc06 in /home/kashdc06/demo)
+2023-03-27 05:06:30.408 DEBUG 1292 --- [main] com.example.demo.DemoApplication         : Running with Spring Boot v2.6.3, Spring v5.3.15
+2023-03-27 05:06:30.409  INFO 1292 --- [main] com.example.demo.DemoApplication         : No active profile set, falling back to default profiles: default
+2023-03-27 05:06:31.196  INFO 1292 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-03-27 05:06:31.213  INFO 1292 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 7 ms. Found 0 JPA repository interfaces.
+2023-03-27 05:06:31.843  INFO 1292 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8100 (http)
+2023-03-27 05:06:31.859  INFO 1292 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-03-27 05:06:31.859  INFO 1292 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.56]
+2023-03-27 05:06:31.933  INFO 1292 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-03-27 05:06:31.933  INFO 1292 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1429 ms
+2023-03-27 05:06:32.148  INFO 1292 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-03-27 05:06:32.187  INFO 1292 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.4.Final
+2023-03-27 05:06:32.315  INFO 1292 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-03-27 05:06:32.393  INFO 1292 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-03-27 05:06:35.044  INFO 1292 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-03-27 05:06:35.057  INFO 1292 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2023-03-27 05:06:35.989  INFO 1292 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-03-27 05:06:35.996  INFO 1292 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-03-27 05:06:36.109  WARN 1292 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-03-27 05:06:36.445  INFO 1292 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8100 (http) with context path ''
+2023-03-27 05:06:36.458  INFO 1292 --- [main] com.example.demo.DemoApplication         : Started DemoApplication in 6.587 seconds (JVM running for 6.994)
+2023-03-27 05:07:43.981  INFO 1292 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-03-27 05:07:43.984  INFO 1292 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-03-27 05:07:44.007  INFO 1292 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
